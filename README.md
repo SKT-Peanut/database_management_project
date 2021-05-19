@@ -1,4 +1,4 @@
-# database_management_project
+# Database  Management Project
 Language: SQL, Java
 
 Software: Azure SQL, JDBC, Eclipse 
