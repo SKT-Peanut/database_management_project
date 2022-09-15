@@ -3,7 +3,7 @@
 
 **Software:** Azure SQL, JDBC, Eclipse 
 
-The instruction folder tells the instruction on how to download and connect Azure SQL, JDBC, and Eclipse.
+The [instruction](https://github.com/khuechuong/database_management_project/tree/main/instructions) folder tells the instruction on how to download and connect Azure SQL, JDBC, and Eclipse.
 
 The file _Individual Project-CS4513 F20.pdf_ gives the assignments overview and requirements as well as task.
 
