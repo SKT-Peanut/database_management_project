@@ -1,7 +1,7 @@
 # Database  Management Project
-Language: SQL, Java
+**Language:** SQL, Java
 
-Software: Azure SQL, JDBC, Eclipse 
+**Software:** Azure SQL, JDBC, Eclipse 
 
 The instruction folder tells the instruction on how to download and connect Azure SQL, JDBC, and Eclipse.
 
