@@ -7,4 +7,4 @@ The instruction folder tells the instruction on how to download and connect Azur
 
 The file _Individual Project-CS4513 F20.pdf_ gives the assignments overview and requirements as well as task.
 
-The file _project_report.pdf_ contains all the informations (including Java and SQL codes) about the project and has a **table of content** to display what information you need.
+The file _project_report.pdf_ contains all the informations **(including Java and SQL codes)** about the project and has a **table of content** to display what information you need.
