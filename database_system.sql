@@ -1,6 +1,5 @@
 DROP TABLE IF EXISTS Organization_Donate_Card
 DROP TABLE IF EXISTS Organization_Donate_Check
-14
 DROP TABLE IF EXISTS Organization_Donate
 DROP TABLE IF EXISTS Organization_Donor
 DROP TABLE IF EXISTS Sponsor
@@ -60,8 +59,6 @@ E_name VARCHAR
 (64),
 Relationship VARCHAR
 (64),
-1
-5
 Email_address VARCHAR(30) NOT NULL,
 Mailing_address VARCHAR(64) NOT NULL,
 Home_number INT NOT NULL,
@@ -103,7 +100,6 @@ CREATE TABLE Cares(
 SSN INT,
 t_name VARCHAR(64),
 active VARCHAR(64),
-16
 PRIMARY KEY (SSN, t_name),
 FOREIGN KEY (SSN) REFERENCES Client(SSN) ON DELETE CASCADE,
 FOREIGN KEY (t_name) REFERENCES Team(t_name) ON DELETE CASCADE
@@ -145,7 +141,6 @@ amount INT,
 e_description varchar(64),
 PRIMARY KEY (SSN, e_date, amount, e_description),
 FOREIGN KEY (SSN) REFERENCES Employee(SSN) ON DELETE CASCADE
-17
 )
 CREATE TABLE Reporting(
 SSN INT,
@@ -186,7 +181,6 @@ d_amount INT,
 d_card_num INT,
 d_card_type VARCHAR(64),
 d_card_exp INT,
-18
 PRIMARY KEY (SSN,d_date, d_amount, d_card_num),
 FOREIGN KEY (SSN, d_date, d_amount) REFERENCES Donor_Donate(SSN, d_date, d_amount) ON
 DELETE CASCADE
@@ -227,7 +221,6 @@ org_name VARCHAR(64) PRIMARY KEY,
 anonymous VARCHAR(64),
 FOREIGN KEY (org_name) REFERENCES External_Organization(org_name) ON DELETE CASCADE
 )
-19
 CREATE TABLE Organization_Donate(
 org_name VARCHAR(64),
 donate_date INT,
