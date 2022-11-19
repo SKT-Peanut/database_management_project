@@ -4,7 +4,7 @@
 **Software:** Azure SQL, JDBC, Eclipse 
 
 ### ER Diagram
-[alt text](https://github.com/khuechuong/database_management_project/blob/main/Pic/er_.png)  
+![alt text](https://github.com/khuechuong/database_management_project/blob/main/Pic/er_.png)  
 
 The [Software IDE install and setup instruction](https://github.com/khuechuong/database_management_project/tree/main/Software%20IDE%20install%20and%20setup%20instructions) folder tells the instruction on how to download and connect Azure SQL, JDBC, and Eclipse.
 
